@@ -5,9 +5,11 @@ class Unicorn {
   }
   isWhite() {
     if (this.color != "white") {
-      return false
+      return false;
     }
-  says(string)
+  }
+  says(string) {
+    return `**;* ${string} *;**`;
   }
 }
 
